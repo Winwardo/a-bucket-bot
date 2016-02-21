@@ -2,10 +2,17 @@
 name = "a-bucket-bot"
 version = "0.1.0"
 authors = ["Layl <LaylConway@users.noreply.github.com>"]
+license = "MIT OR Apache-2.0"
 
 [dependencies]
+byteorder = "0.4"
+crc = "1.2"
 log = "0.3"
 log4rs = "0.3"
+toml = "0.1.27"
 
 [dependencies.boiler]
 path = "./boiler"
+
+[dependencies.boiler-generated]
+path = "./boiler-generated"
